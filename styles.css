@@ -961,3 +961,114 @@ footer {
     font-size: 16px;
   }
 }
+.footer {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  padding: 40px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer__container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.footer__branding img {
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+.footer__slogan {
+  font-size: 1em;
+  opacity: 0.8;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links h4 {
+  margin-bottom: 12px;
+  font-size: 1.1em;
+  color: #ff9800;
+}
+
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links li {
+  margin-bottom: 8px;
+}
+
+.footer__links a {
+  color: #f5f5f5;
+  text-decoration: none;
+  opacity: 0.85;
+  transition: opacity 0.3s;
+}
+
+.footer__links a:hover {
+  opacity: 1;
+}
+
+.footer__bottom {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  opacity: 0.6;
+}
+.footer__donacion {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #262626;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(255, 152, 0, 0.1);
+}
+
+.footer__donacion h4 {
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  color: #ff9800;
+}
+
+.footer__donacion p {
+  font-size: 1em;
+  margin-bottom: 12px;
+  color: #eee;
+}
+
+.footer__donacion-btn {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.footer__donacion-btn:hover {
+  background-color: #e67e00;
+}
+.nav__donacion {
+  background-color: #ff9800;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.nav__donacion:hover {
+  background-color: #cc7c00;
+}
